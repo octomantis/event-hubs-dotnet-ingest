@@ -9,9 +9,9 @@ namespace SendSampleData
 {
     class Program
     {
-        const string eventHubName = "test-hub";
+        const string eventHubName = "samplestreamingest";
         // Copy the connection string ("Connection string-primary key") from your Event Hub namespace.
-        const string connectionString = @"<YourConnectionString>";
+        const string connectionString = @"Endpoint=sb://cca-iot-demo-eh.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=73rsOeHaJrBGEe07g9KLb1YZh2zIJymoYNPanrT/fXI=";
 
         static void Main(string[] args)
         {
